@@ -1,0 +1,676 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		23498B806A14458EA80022EA /* ZERO_CHECK */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 7484300403BC483BA906D2D5 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */;
+			buildPhases = (
+				9A3C5BAE81B644FAB27A0077 /* CMake Rules */,
+			);
+			dependencies = (
+			);
+			name = ZERO_CHECK;
+			productName = ZERO_CHECK;
+		};
+		72EDF7109A8140AE8DED18F0 /* ALL_BUILD */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 2C3A99CAA4EE47C0939F5BFE /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */;
+			buildPhases = (
+				69D4DDB5325442EDA02955E1 /* CMake Rules */,
+			);
+			dependencies = (
+				2179389CE9B043CBB6CFBCF8 /* PBXTargetDependency */,
+				EEC702B2ADCD46D99F6C8D00 /* PBXTargetDependency */,
+			);
+			name = ALL_BUILD;
+			productName = ALL_BUILD;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		0F59F027565F45859B7F8165 /* /Users/hjaltihilmarsson/Documents/OpenSim/4.3/Code/CPP/Interneuron/osimInterneuronDLL.h */ = {isa = PBXBuildFile; fileRef = 618E65979E9B40D89E03105A /* /Users/hjaltihilmarsson/Documents/OpenSim/4.3/Code/CPP/Interneuron/osimInterneuronDLL.h */; };
+		8C64F59A1DF7419AA0A76237 /* /Users/hjaltihilmarsson/Documents/OpenSim/4.3/Code/CPP/Interneuron/Interneuron.cpp */ = {isa = PBXBuildFile; fileRef = 636E2F565B264618BE870682 /* /Users/hjaltihilmarsson/Documents/OpenSim/4.3/Code/CPP/Interneuron/Interneuron.cpp */; };
+		A890925CAF18444298BD3476 /* /Users/hjaltihilmarsson/Documents/OpenSim/4.3/Code/CPP/Interneuron/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = B5D62426F4254445BB3D3643 /* /Users/hjaltihilmarsson/Documents/OpenSim/4.3/Code/CPP/Interneuron/CMakeLists.txt */; };
+		BC86D88B4C51495BB53AF44D /* /Users/hjaltihilmarsson/Documents/OpenSim/4.3/Code/CPP/Interneuron/Interneuron.h */ = {isa = PBXBuildFile; fileRef = 65E64A7D3A6D44EDAD60AB29 /* /Users/hjaltihilmarsson/Documents/OpenSim/4.3/Code/CPP/Interneuron/Interneuron.h */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXBuildStyle section */
+		09BCD4DCE8FA422A8D87E817 /* RelWithDebInfo */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = RelWithDebInfo;
+		};
+		4CC8E0B5FC0545308373A381 /* Debug */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Debug;
+		};
+		CCD95589C3774D09812D13E7 /* MinSizeRel */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = MinSizeRel;
+		};
+		EB62FE36EB1A4DBD949756BB /* Release */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Release;
+		};
+/* End PBXBuildStyle section */
+
+/* Begin PBXContainerItemProxy section */
+		9EC7F5C2FE9B4CC7BD790624 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 32E9EAD7A15B4351B91B332F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 09404C78F6A9414DAC8D6E42;
+			remoteInfo = Interneuron;
+		};
+		DE65575DD9AE47A3AB3AEE77 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 32E9EAD7A15B4351B91B332F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 23498B806A14458EA80022EA;
+			remoteInfo = ZERO_CHECK;
+		};
+		EBF617FDB23C4C579BA4E61C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 32E9EAD7A15B4351B91B332F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 23498B806A14458EA80022EA;
+			remoteInfo = ZERO_CHECK;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		05FAC3D4F7EF42A2BEB09CEA /* /Users/hjaltihilmarsson/Documents/OpenSim/4.3/Code/CPP/Interneuron/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		618E65979E9B40D89E03105A /* /Users/hjaltihilmarsson/Documents/OpenSim/4.3/Code/CPP/Interneuron/osimInterneuronDLL.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = osimInterneuronDLL.h; path = osimInterneuronDLL.h; sourceTree = SOURCE_ROOT; };
+		636E2F565B264618BE870682 /* /Users/hjaltihilmarsson/Documents/OpenSim/4.3/Code/CPP/Interneuron/Interneuron.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = Interneuron.cpp; path = Interneuron.cpp; sourceTree = SOURCE_ROOT; };
+		65E64A7D3A6D44EDAD60AB29 /* /Users/hjaltihilmarsson/Documents/OpenSim/4.3/Code/CPP/Interneuron/Interneuron.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = Interneuron.h; path = Interneuron.h; sourceTree = SOURCE_ROOT; };
+		91482B9478E5441DB697E534 /* Interneuron */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; path = Interneuron; sourceTree = BUILT_PRODUCTS_DIR; };
+		B5D62426F4254445BB3D3643 /* /Users/hjaltihilmarsson/Documents/OpenSim/4.3/Code/CPP/Interneuron/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		90C436181963442AA953F5F1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		66ACE6E486FF4C16A144FD78 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		81CC2413263E469DBDCD7CB4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				91482B9478E5441DB697E534 /* Interneuron */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8539F7A1C672437BA9815AD5 /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				636E2F565B264618BE870682 /* /Users/hjaltihilmarsson/Documents/OpenSim/4.3/Code/CPP/Interneuron/Interneuron.cpp */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		86614689AF154543A6BFA017 = {
+			isa = PBXGroup;
+			children = (
+				DFDE1AB345314422858717AD /* Interneuron */,
+				BDBCAA1AD9DC4FFAB0CF744D /* ALL_BUILD */,
+				81CC2413263E469DBDCD7CB4 /* Products */,
+				66ACE6E486FF4C16A144FD78 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		B38F028527794A0486348E86 /* Header Files */ = {
+			isa = PBXGroup;
+			children = (
+				65E64A7D3A6D44EDAD60AB29 /* /Users/hjaltihilmarsson/Documents/OpenSim/4.3/Code/CPP/Interneuron/Interneuron.h */,
+				618E65979E9B40D89E03105A /* /Users/hjaltihilmarsson/Documents/OpenSim/4.3/Code/CPP/Interneuron/osimInterneuronDLL.h */,
+			);
+			name = "Header Files";
+			sourceTree = "<group>";
+		};
+		BDBCAA1AD9DC4FFAB0CF744D /* ALL_BUILD */ = {
+			isa = PBXGroup;
+			children = (
+				D6A789A79DB04F36864B02A1 /* CMake Rules */,
+				05FAC3D4F7EF42A2BEB09CEA /* /Users/hjaltihilmarsson/Documents/OpenSim/4.3/Code/CPP/Interneuron/CMakeLists.txt */,
+			);
+			name = ALL_BUILD;
+			sourceTree = "<group>";
+		};
+		D6A789A79DB04F36864B02A1 /* CMake Rules */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "CMake Rules";
+			sourceTree = "<group>";
+		};
+		DFDE1AB345314422858717AD /* Interneuron */ = {
+			isa = PBXGroup;
+			children = (
+				8539F7A1C672437BA9815AD5 /* Source Files */,
+				B38F028527794A0486348E86 /* Header Files */,
+				B5D62426F4254445BB3D3643 /* /Users/hjaltihilmarsson/Documents/OpenSim/4.3/Code/CPP/Interneuron/CMakeLists.txt */,
+			);
+			name = Interneuron;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		09404C78F6A9414DAC8D6E42 /* Interneuron */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D3996E84557F4F9FA3A01F8B /* Build configuration list for PBXNativeTarget "Interneuron" */;
+			buildPhases = (
+				4C9D3971DEA04C28A8B57475 /* Sources */,
+				90C436181963442AA953F5F1 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D1ABC823B8D44CD4A974CB06 /* PBXTargetDependency */,
+			);
+			name = Interneuron;
+			productName = Interneuron;
+			productReference = 91482B9478E5441DB697E534 /* Interneuron */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		32E9EAD7A15B4351B91B332F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1130;
+			};
+			buildConfigurationList = 7D0D832DE5A54D2B8BCFF3DE /* Build configuration list for PBXProject "Interneuron" */;
+			buildSettings = {
+			};
+			buildStyles = (
+				4CC8E0B5FC0545308373A381 /* Debug */,
+				EB62FE36EB1A4DBD949756BB /* Release */,
+				CCD95589C3774D09812D13E7 /* MinSizeRel */,
+				09BCD4DCE8FA422A8D87E817 /* RelWithDebInfo */,
+			);
+			compatibilityVersion = "Xcode 3.2";
+			hasScannedForEncodings = 0;
+			mainGroup = 86614689AF154543A6BFA017;
+			projectDirPath = ../;
+			projectRoot = "";
+			targets = (
+				72EDF7109A8140AE8DED18F0 /* ALL_BUILD */,
+				09404C78F6A9414DAC8D6E42 /* Interneuron */,
+				23498B806A14458EA80022EA /* ZERO_CHECK */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3C0110FC8322DE7E50886E21 = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		69D4DDB5325442EDA02955E1 /* CMake Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/hjaltihilmarsson/Documents/OpenSim/4.3/Code/CPP/Interneuron/build -f /Users/hjaltihilmarsson/Documents/OpenSim/4.3/Code/CPP/Interneuron/build/CMakeScripts/ALL_BUILD_cmakeRulesBuildPhase.make$CONFIGURATION OBJDIR=$(basename \"$OBJECT_FILE_DIR_normal\") all";
+			showEnvVarsInLog = 0;
+		};
+		9A3C5BAE81B644FAB27A0077 /* CMake Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/hjaltihilmarsson/Documents/OpenSim/4.3/Code/CPP/Interneuron/build -f /Users/hjaltihilmarsson/Documents/OpenSim/4.3/Code/CPP/Interneuron/build/CMakeScripts/ZERO_CHECK_cmakeRulesBuildPhase.make$CONFIGURATION OBJDIR=$(basename \"$OBJECT_FILE_DIR_normal\") all";
+			showEnvVarsInLog = 0;
+		};
+		9B50530E35CC49C82C2FACCF = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4C9D3971DEA04C28A8B57475 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8C64F59A1DF7419AA0A76237 /* /Users/hjaltihilmarsson/Documents/OpenSim/4.3/Code/CPP/Interneuron/Interneuron.cpp */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2179389CE9B043CBB6CFBCF8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 23498B806A14458EA80022EA /* ZERO_CHECK */;
+			targetProxy = DE65575DD9AE47A3AB3AEE77 /* PBXContainerItemProxy */;
+		};
+		D1ABC823B8D44CD4A974CB06 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 23498B806A14458EA80022EA /* ZERO_CHECK */;
+			targetProxy = EBF617FDB23C4C579BA4E61C /* PBXContainerItemProxy */;
+		};
+		EEC702B2ADCD46D99F6C8D00 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 09404C78F6A9414DAC8D6E42 /* Interneuron */;
+			targetProxy = 9EC7F5C2FE9B4CC7BD790624 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		3D96094968D84B6FBE75B073 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(NATIVE_ARCH_ACTUAL)";
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk;
+				SYMROOT = /Users/hjaltihilmarsson/Documents/OpenSim/4.3/Code/CPP/Interneuron/build/build;
+			};
+			name = Debug;
+		};
+		70940C99EB9E4C0A976ABA36 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/hjaltihilmarsson/Documents/OpenSim/4.3/Code/CPP/Interneuron/build;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		783FDA4DD72A4B79B801FA9B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(NATIVE_ARCH_ACTUAL)";
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk;
+				SYMROOT = /Users/hjaltihilmarsson/Documents/OpenSim/4.3/Code/CPP/Interneuron/build/build;
+			};
+			name = Release;
+		};
+		79A476C89B9544CB86BBB953 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				FRAMEWORK_SEARCH_PATHS = (/Applications/Xcode_12.4.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/System/Library/Frameworks,"$(inherited)");
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",SPDLOG_COMPILED_LIB,OPENSIM_WITH_CASADI,OPENSIM_WITH_TROPTER,"$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				LD_RUNPATH_SEARCH_PATHS = ("\"/Applications/OpenSim 4.3/sdk/lib\" \"/Applications/OpenSim 4.3/sdk/Simbody/lib\"","$(inherited)");
+				OTHER_CPLUSPLUSFLAGS = "       -DNDEBUG '-std=gnu++11' ";
+				OTHER_LDFLAGS = (" -Wl,-search_paths_first -Wl,-headerpad_max_install_names","\"/Applications/OpenSim 4.3/sdk/lib/libosimExampleComponents.dylib\"","\"/Applications/OpenSim 4.3/sdk/lib/libosimMoco.dylib\"","\"/Applications/OpenSim 4.3/sdk/lib/libosimTools.dylib\"","\"/Applications/OpenSim 4.3/sdk/lib/libosimAnalyses.dylib\"","\"/Applications/OpenSim 4.3/sdk/lib/libosimActuators.dylib\"","\"/Applications/OpenSim 4.3/sdk/lib/libosimSimulation.dylib\"","\"/Applications/OpenSim 4.3/sdk/lib/libosimCommon.dylib\"","\"/Applications/OpenSim 4.3/sdk/spdlog/lib/spdlog/libspdlog.a\"","\"/Applications/OpenSim 4.3/sdk/Simbody/lib/libSimTKsimbody.3.8.dylib\"","\"/Applications/OpenSim 4.3/sdk/Simbody/lib/libSimTKmath.3.8.dylib\"","\"/Applications/OpenSim 4.3/sdk/Simbody/lib/libSimTKcommon.3.8.dylib\"","-framework Accelerate","-lm","-ldl","-ldl","-lm","\"/Applications/OpenSim 4.3/sdk/lib/libosimLepton.dylib\"","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = Interneuron;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/hjaltihilmarsson/Documents/OpenSim/4.3/Code/CPP/Interneuron/build;
+				SYSTEM_HEADER_SEARCH_PATHS = ("\"/Applications/OpenSim 4.3/sdk/include\"","\"/Applications/OpenSim 4.3/sdk/include/OpenSim\"","\"/Applications/OpenSim 4.3/sdk/Simbody/include/simbody\"","\"/Applications/OpenSim 4.3/sdk/spdlog/include\"","$(inherited)");
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		8C82D9FEE4C14DEEA72950AC /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/hjaltihilmarsson/Documents/OpenSim/4.3/Code/CPP/Interneuron/build;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		98A652D1192345078D3B0440 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/hjaltihilmarsson/Documents/OpenSim/4.3/Code/CPP/Interneuron/build;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		9E5AD4F9E75A4DBEA6FBE7C2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/hjaltihilmarsson/Documents/OpenSim/4.3/Code/CPP/Interneuron/build;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		A40E226DF3284C999C4A3472 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(NATIVE_ARCH_ACTUAL)";
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk;
+				SYMROOT = /Users/hjaltihilmarsson/Documents/OpenSim/4.3/Code/CPP/Interneuron/build/build;
+			};
+			name = RelWithDebInfo;
+		};
+		A58A3651179848509BF1978F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/hjaltihilmarsson/Documents/OpenSim/4.3/Code/CPP/Interneuron/build;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		AE28DF509D6046499FD64BAB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				FRAMEWORK_SEARCH_PATHS = (/Applications/Xcode_12.4.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/System/Library/Frameworks,"$(inherited)");
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",SPDLOG_COMPILED_LIB,OPENSIM_WITH_CASADI,OPENSIM_WITH_TROPTER,"$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				LD_RUNPATH_SEARCH_PATHS = ("\"/Applications/OpenSim 4.3/sdk/lib\" \"/Applications/OpenSim 4.3/sdk/Simbody/lib\"","$(inherited)");
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG '-std=gnu++11' ";
+				OTHER_LDFLAGS = (" -Wl,-search_paths_first -Wl,-headerpad_max_install_names","\"/Applications/OpenSim 4.3/sdk/lib/libosimExampleComponents.dylib\"","\"/Applications/OpenSim 4.3/sdk/lib/libosimMoco.dylib\"","\"/Applications/OpenSim 4.3/sdk/lib/libosimTools.dylib\"","\"/Applications/OpenSim 4.3/sdk/lib/libosimAnalyses.dylib\"","\"/Applications/OpenSim 4.3/sdk/lib/libosimActuators.dylib\"","\"/Applications/OpenSim 4.3/sdk/lib/libosimSimulation.dylib\"","\"/Applications/OpenSim 4.3/sdk/lib/libosimCommon.dylib\"","\"/Applications/OpenSim 4.3/sdk/spdlog/lib/spdlog/libspdlog.a\"","\"/Applications/OpenSim 4.3/sdk/Simbody/lib/libSimTKsimbody.3.8.dylib\"","\"/Applications/OpenSim 4.3/sdk/Simbody/lib/libSimTKmath.3.8.dylib\"","\"/Applications/OpenSim 4.3/sdk/Simbody/lib/libSimTKcommon.3.8.dylib\"","-framework Accelerate","-lm","-ldl","-ldl","-lm","\"/Applications/OpenSim 4.3/sdk/lib/libosimLepton.dylib\"","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = Interneuron;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/hjaltihilmarsson/Documents/OpenSim/4.3/Code/CPP/Interneuron/build;
+				SYSTEM_HEADER_SEARCH_PATHS = ("\"/Applications/OpenSim 4.3/sdk/include\"","\"/Applications/OpenSim 4.3/sdk/include/OpenSim\"","\"/Applications/OpenSim 4.3/sdk/Simbody/include/simbody\"","\"/Applications/OpenSim 4.3/sdk/spdlog/include\"","$(inherited)");
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		B1A1AF1AC4E24191BBB79019 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(NATIVE_ARCH_ACTUAL)";
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk;
+				SYMROOT = /Users/hjaltihilmarsson/Documents/OpenSim/4.3/Code/CPP/Interneuron/build/build;
+			};
+			name = MinSizeRel;
+		};
+		B1C319B4D5A744B98D8BDE93 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				FRAMEWORK_SEARCH_PATHS = (/Applications/Xcode_12.4.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/System/Library/Frameworks,"$(inherited)");
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",SPDLOG_COMPILED_LIB,OPENSIM_WITH_CASADI,OPENSIM_WITH_TROPTER,"$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				LD_RUNPATH_SEARCH_PATHS = ("\"/Applications/OpenSim 4.3/sdk/lib\" \"/Applications/OpenSim 4.3/sdk/Simbody/lib\"","$(inherited)");
+				OTHER_CPLUSPLUSFLAGS = "   '-std=gnu++11' ";
+				OTHER_LDFLAGS = (" -Wl,-search_paths_first -Wl,-headerpad_max_install_names","\"/Applications/OpenSim 4.3/sdk/lib/libosimExampleComponents.dylib\"","\"/Applications/OpenSim 4.3/sdk/lib/libosimMoco.dylib\"","\"/Applications/OpenSim 4.3/sdk/lib/libosimTools.dylib\"","\"/Applications/OpenSim 4.3/sdk/lib/libosimAnalyses.dylib\"","\"/Applications/OpenSim 4.3/sdk/lib/libosimActuators.dylib\"","\"/Applications/OpenSim 4.3/sdk/lib/libosimSimulation.dylib\"","\"/Applications/OpenSim 4.3/sdk/lib/libosimCommon.dylib\"","\"/Applications/OpenSim 4.3/sdk/spdlog/lib/spdlog/libspdlog.a\"","\"/Applications/OpenSim 4.3/sdk/Simbody/lib/libSimTKsimbody.3.8.dylib\"","\"/Applications/OpenSim 4.3/sdk/Simbody/lib/libSimTKmath.3.8.dylib\"","\"/Applications/OpenSim 4.3/sdk/Simbody/lib/libSimTKcommon.3.8.dylib\"","-framework Accelerate","-lm","-ldl","-ldl","-lm","\"/Applications/OpenSim 4.3/sdk/lib/libosimLepton.dylib\"","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = Interneuron;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/hjaltihilmarsson/Documents/OpenSim/4.3/Code/CPP/Interneuron/build;
+				SYSTEM_HEADER_SEARCH_PATHS = ("\"/Applications/OpenSim 4.3/sdk/include\"","\"/Applications/OpenSim 4.3/sdk/include/OpenSim\"","\"/Applications/OpenSim 4.3/sdk/Simbody/include/simbody\"","\"/Applications/OpenSim 4.3/sdk/spdlog/include\"","$(inherited)");
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		B63C61BDE82B408CA2655D47 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/hjaltihilmarsson/Documents/OpenSim/4.3/Code/CPP/Interneuron/build;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		E15EDE4317F144D49CA9E41B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/hjaltihilmarsson/Documents/OpenSim/4.3/Code/CPP/Interneuron/build;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		E6AC84B277B0454F85DF5604 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				FRAMEWORK_SEARCH_PATHS = (/Applications/Xcode_12.4.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/System/Library/Frameworks,"$(inherited)");
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",SPDLOG_COMPILED_LIB,OPENSIM_WITH_CASADI,OPENSIM_WITH_TROPTER,"$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				LD_RUNPATH_SEARCH_PATHS = ("\"/Applications/OpenSim 4.3/sdk/lib\" \"/Applications/OpenSim 4.3/sdk/Simbody/lib\"","$(inherited)");
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG '-std=gnu++11' ";
+				OTHER_LDFLAGS = (" -Wl,-search_paths_first -Wl,-headerpad_max_install_names","\"/Applications/OpenSim 4.3/sdk/lib/libosimExampleComponents.dylib\"","\"/Applications/OpenSim 4.3/sdk/lib/libosimMoco.dylib\"","\"/Applications/OpenSim 4.3/sdk/lib/libosimTools.dylib\"","\"/Applications/OpenSim 4.3/sdk/lib/libosimAnalyses.dylib\"","\"/Applications/OpenSim 4.3/sdk/lib/libosimActuators.dylib\"","\"/Applications/OpenSim 4.3/sdk/lib/libosimSimulation.dylib\"","\"/Applications/OpenSim 4.3/sdk/lib/libosimCommon.dylib\"","\"/Applications/OpenSim 4.3/sdk/spdlog/lib/spdlog/libspdlog.a\"","\"/Applications/OpenSim 4.3/sdk/Simbody/lib/libSimTKsimbody.3.8.dylib\"","\"/Applications/OpenSim 4.3/sdk/Simbody/lib/libSimTKmath.3.8.dylib\"","\"/Applications/OpenSim 4.3/sdk/Simbody/lib/libSimTKcommon.3.8.dylib\"","-framework Accelerate","-lm","-ldl","-ldl","-lm","\"/Applications/OpenSim 4.3/sdk/lib/libosimLepton.dylib\"","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = Interneuron;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/hjaltihilmarsson/Documents/OpenSim/4.3/Code/CPP/Interneuron/build;
+				SYSTEM_HEADER_SEARCH_PATHS = ("\"/Applications/OpenSim 4.3/sdk/include\"","\"/Applications/OpenSim 4.3/sdk/include/OpenSim\"","\"/Applications/OpenSim 4.3/sdk/Simbody/include/simbody\"","\"/Applications/OpenSim 4.3/sdk/spdlog/include\"","$(inherited)");
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		E7888D6E105148AF8D5333CC /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/hjaltihilmarsson/Documents/OpenSim/4.3/Code/CPP/Interneuron/build;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2C3A99CAA4EE47C0939F5BFE /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B63C61BDE82B408CA2655D47 /* Debug */,
+				9E5AD4F9E75A4DBEA6FBE7C2 /* Release */,
+				98A652D1192345078D3B0440 /* MinSizeRel */,
+				E7888D6E105148AF8D5333CC /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		7484300403BC483BA906D2D5 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E15EDE4317F144D49CA9E41B /* Debug */,
+				A58A3651179848509BF1978F /* Release */,
+				70940C99EB9E4C0A976ABA36 /* MinSizeRel */,
+				8C82D9FEE4C14DEEA72950AC /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		7D0D832DE5A54D2B8BCFF3DE /* Build configuration list for PBXProject "Interneuron" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3D96094968D84B6FBE75B073 /* Debug */,
+				783FDA4DD72A4B79B801FA9B /* Release */,
+				B1A1AF1AC4E24191BBB79019 /* MinSizeRel */,
+				A40E226DF3284C999C4A3472 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		D3996E84557F4F9FA3A01F8B /* Build configuration list for PBXNativeTarget "Interneuron" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B1C319B4D5A744B98D8BDE93 /* Debug */,
+				AE28DF509D6046499FD64BAB /* Release */,
+				E6AC84B277B0454F85DF5604 /* MinSizeRel */,
+				79A476C89B9544CB86BBB953 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 32E9EAD7A15B4351B91B332F /* Project object */;
+}
