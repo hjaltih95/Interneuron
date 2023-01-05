@@ -51,17 +51,14 @@ Interneuron::Interneuron()
 
 /* Convenience constructor. */
 Interneuron::Interneuron(const std::string& name,
-                         const Muscle& muscle,
                          double threshold)
 {
     OPENSIM_THROW_IF(name.empty(), ComponentHasNoName, getClassName());
        
     setName(name);
-    connectSocket_muscle(muscle);
     
     constructProperties();
     set_threshold(threshold);
-
 
 }
 
@@ -85,29 +82,48 @@ Interneuron::Interneuron(const std::string& name,
  */
 void Interneuron::constructProperties()
 {
-    
+    constructProperty_threshold(0.5);
+    constructProperty_weights();
 }
 
 
 void Interneuron::extendConnectToModel(Model &model)
 {
     Super::extendConnectToModel(model);
+}
+
+void Interneuron::extendFinalizeFromProperties()
+{
+    Super::extendFinalizeFromProperties();
     
-    
-    
+    //OPENSIM_THROW_IF(getProperty_weights()., <#EXCEPTION, ...#>)
 }
 
 //=============================================================================
 // GET AND SET
 //=============================================================================
 
-//-----------------------------------------------------------------------------
-//
-//-----------------------------------------------------------------------------
-const Muscle& Interneuron::getMuscle() const
+void Interneuron::setWeights(const Property<double>& weights)
 {
-    return getSocket<Muscle>("muscle").getConnectee();
+    set_weights(weights);
 }
+const Property<double>& Interneuron::getWeights() const
+{
+    return getProperty_weights();
+}
+
+void Interneuron::setThreshold(double threshold)
+{
+    set_threshold(threshold);
+}
+double Interneuron::getThreshold() const
+{
+    get_threshold();
+}
+
+//-----------------------------------------------------------------------------
+//  SOCKET
+//-----------------------------------------------------------------------------
 
 
 //=============================================================================
@@ -125,10 +141,18 @@ const Muscle& Interneuron::getMuscle() const
 double Interneuron::getSignal(const SimTK::State& s) const
 {
     
-    const auto& inputs = getInput<double>("inputs").getVector(s);
+    auto inputs = getInput<double>("afferents").getVector(s);
     double time = s.getTime();
     double signal = 0;
     double threshold = get_threshold();
+    const auto& weights = getProperty_weights();
+    
+
+    
+    for(int i = 0; i<inputs.size(); i++)
+    {
+        inputs[i] = weights[i]*inputs[i];
+    }
     
     if (inputs.sum() > threshold)
     {
@@ -138,8 +162,6 @@ double Interneuron::getSignal(const SimTK::State& s) const
     {
         signal = 0;
     }
-    
-    
     
     return signal;
 }
